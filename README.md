@@ -2,7 +2,7 @@
 
 This is a simple template for making a bubble pack chart in D3. 
 
-<img src="https://raw.githubusercontent.com/jrue/d3-force-chart/master/screenshot.png" width="50%" height="auto" style="max-width:50%;height:auto;">
+<img src="https://raw.githubusercontent.com/jrue/d3-bubble-pack/master/screenshot.png" width="50%" height="auto" style="max-width:50%;height:auto;">
 
 ## Install instructions
 
