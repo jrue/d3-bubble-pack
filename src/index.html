@@ -163,6 +163,8 @@ function wrap(d) {
         tspan = t.append("tspan").attr("x", x).attr("y", y).attr("dy", ++lineNumber * lineHeight + "em").text(word);
       }
     }
+    let tspanHeight = t.select('tspan').node().getBBox().height;
+    t.selectAll("tspan").attr("y", y - tspanHeight * Math.floor((t.selectAll('tspan').size()-1)/2));
 }
     
 </script>
